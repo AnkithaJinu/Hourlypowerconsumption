@@ -1,6 +1,5 @@
 
 import streamlit as st
-pip install pickle-mixin
 import pickle
 import numpy as np 
 import pandas as pd
