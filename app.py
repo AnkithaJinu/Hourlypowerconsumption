@@ -44,7 +44,6 @@ with col2:
     st.subheader('Actual and Forecast plot')
     fig, ax = plt.subplots()
     plt.figure(figsize=(14,5))
-    ax.plot(data[-365:].index,data[-365:].values)
     ax.plot(future_df.index,future_df.values, label='Forecast', color="orange")
     ax.tick_params(axis='x', labelrotation = 100)
     plt.legend(fontsize=12, fancybox=True, shadow=True, frameon=True)
