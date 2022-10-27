@@ -8,9 +8,9 @@ import warnings
 warnings.filterwarnings("ignore") 
 
 
-model1=pickle.load(open('https://github.com/AnkithaJinu/Hourlypowerconsumption/final_rf_model.pkl',"rb"))
-daily_data_last_7=pd.read_csv('https://github.com/AnkithaJinu/Hourlypowerconsumption/daily_data_last_7.csv', header=None)
-data=pd.read_csv("https://github.com/AnkithaJinu/Hourlypowerconsumption/dataset_daily.csv")
+model1=pickle.load(open("./final_rf_model.pkl","rb"))
+daily_data_last_7=pd.read_csv("./daily_data_last_7.csv", header=None)
+data=pd.read_csv("./dataset_daily.csv")
 
 
 
