@@ -69,10 +69,10 @@ st.sidebar.write(f"Power consumption for {days}th day")
 st.sidebar.write(future_df[-1:])
 col1, col2 = st.columns(2)
 with col1:
-    st.write(f"Power consumptionForecasted for {days} days" )
+    st.subheader(f"Power consumptionForecasted for {days} days" )
     st.write(future_df)
 with col2:
-    st.write('Forecasted Graph')
+    st.subheader('Forecasted Graph')
     fig, ax = plt.subplots()
     plt.figure(figsize=(8,3))
     ax.plot(future_df.index,future_df.values, label='Forecast', color="orange")
