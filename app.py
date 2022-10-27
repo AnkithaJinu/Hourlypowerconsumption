@@ -39,12 +39,3 @@ st.sidebar.write(future_df[-1:])
 st.write(f"Power consumptionForecasted till {days}" )
 
 st.write(future_df)
-
-
-st.subheader('Actual and Forecast plot')
-fig=plt.figure(figsize=(12,6))
-plt.plot(data[-365:].index,data[-365:].values)
-plt.plot(future_df.index,future_df.values)
-plt.xlabel('Year',fontsize=14)
-plt.ylabel('Power consumption',fontsize=14)
-st.pyplot(fig)
