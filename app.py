@@ -54,7 +54,7 @@ with col2:
     
 st.subheader('Actual Vs Forecast plot')
 fig, ax = plt.subplots()
-plt.figure(figsize=(14,5))
+plt.figure(figsize=(8,3))
 ax.plot(future_df.index,future_df.values, label='Forecast', color="orange")
 ax.plot(data['Energy'][-365:].index,data['Energy'][-365:].values)
 ax.tick_params(axis='x', labelrotation = 100)
