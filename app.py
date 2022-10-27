@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 import numpy as np 
 import pandas as pd
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import warnings
 warnings.filterwarnings("ignore") 
 
