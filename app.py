@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore")
 
 model1=pickle.load(open("./final_rf_model.pkl","rb"))
 daily_data_last_7=pd.read_csv("./daily_data_last_7.csv", header=None)
-data=pd.read_csv("./dataset_daily.csv")
+data=pd.read_csv("./dataset_daily.csv",header=0, index_col=0, parse_dates=True)
 
 
 
