@@ -43,7 +43,7 @@ with col1:
 with col2:
     st.subheader('Actual and Forecast plot')
     fig=plt.figure(figsize=(12,6))
-    plt.plot(data[-365:].index,data[-365:].values)
+    plt.plot(data.index,data.values)
     plt.plot(future_df.index,future_df.values)
     plt.xlabel('Year',fontsize=14)
     plt.ylabel('Power consumption',fontsize=14)
