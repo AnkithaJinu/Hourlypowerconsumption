@@ -92,5 +92,4 @@ with col2:
     plt.ylabel('Power consumption', fontsize=8)
     plt.xlabel('Date', fontsize=8)
     st.pyplot(fig)
-    
-
+   
