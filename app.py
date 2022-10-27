@@ -25,7 +25,7 @@ st.markdown('''
     border-color:#000000;\
     border-style: false;\
     border-width: 2px;\
-    color:Black;\
+    color:White;\
     font-size:15px;\
     font-family: Source Sans Pro;\
     background-color:#8DC8ED;\
@@ -34,11 +34,11 @@ st.markdown('''
     padding: 0.1em;">\
 }
 .sidebar {
-    background-color: black;
+    background-color: #8DC8ED;
 }
 
 .st-b7 {
-    color: 8DC8ED;
+    color: #8DC8ED;
 }
 .css-nlntq9 {
     font-family: Source Sans Pro;
