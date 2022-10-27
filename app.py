@@ -30,7 +30,7 @@ future_pred=z[-days:]
 
     
     
-future = pd.date_range(start='4/8/2018',periods=days,tz=None,freq = 'D')
+future = pd.date_range(start='8/4/2018',periods=days,tz=None,freq = 'D')
 future_df = pd.DataFrame(index=future)
 future_df['Power Consumption'] = future_pred.tolist()
 
