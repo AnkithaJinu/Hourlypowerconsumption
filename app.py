@@ -53,7 +53,7 @@ with col2:
     st.pyplot(fig)
 st.subheader('Forecasted Graph')
 fig, ax = plt.subplots()
-plt.figure(figsize=(14,5))
+plt.figure(figsize=(8,3))
 ax.plot(future_df.index,future_df.values, label='Forecast', color="orange")
 ax.tick_params(axis='x', labelrotation = 100)
 plt.legend(fontsize=12, fancybox=True, shadow=True, frameon=True)
