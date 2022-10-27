@@ -13,6 +13,38 @@ daily_data_last_7=pd.read_csv("./daily_data_last_7.csv", header=None)
 data=pd.read_csv("./dataset_daily.csv",header=0, index_col=0, parse_dates=True)
 
 
+st.markdown('''
+<style>
+.stApp {
+    
+    background-color:#8DC8ED;
+    align:center;\
+    display:fill;\
+    border-radius: false;\
+    border-style: solid;\
+    border-color:#000000;\
+    border-style: false;\
+    border-width: 2px;\
+    color:Black;\
+    font-size:15px;\
+    font-family: Source Sans Pro;\
+    background-color:#8DC8ED;\
+    text-align:center;\
+    letter-spacing:0.1px;\
+    padding: 0.1em;">\
+}
+.sidebar {
+    background-color: black;
+}
+
+.st-b7 {
+    color: 8DC8ED;
+}
+.css-nlntq9 {
+    font-family: Source Sans Pro;
+}
+</style>
+''', unsafe_allow_html=True)
 
 st.title("Forecast power consumption data")
 st.sidebar.subheader("Select the number of days to Forecast from 2018-Aug-4")
