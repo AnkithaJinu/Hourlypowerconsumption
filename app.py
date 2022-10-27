@@ -69,8 +69,6 @@ st.sidebar.write(f"Power consumption for {days}th day")
 st.sidebar.write(future_df[-1:])
 col1, col2 = st.columns(2)
 with col1:
-    original_title = '<p style="font-family:Courier; color:Blue; font-size: 20px;">Original image</p>'
-    st.markdown(original_title, unsafe_allow_html=True)
     st.write(f"Power consumptionForecasted till {days}" )
     st.write(future_df)
 with col2:
