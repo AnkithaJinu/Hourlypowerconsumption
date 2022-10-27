@@ -44,7 +44,7 @@ with col2:
     fig, ax = plt.subplots()
     plt.figure(figsize=(14,5))
     ax.plot(future_df.index,future_df.values, label='Forecast', color="orange")
-    ax.plot(data[-365:].index,data[-365:].values)
+    ax.plot(data['Energy'][-365:].index,data['Energy'][-365:].values)
     ax.tick_params(axis='x', labelrotation = 100)
     plt.legend(fontsize=12, fancybox=True, shadow=True, frameon=True)
     plt.ylabel('Power consumption', fontsize=15)
