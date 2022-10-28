@@ -1,4 +1,4 @@
-# Hourly power consumption Forecasting App : https://ankithajinu-hourlypowerconsumption-app-0nho8c.streamlitapp.com/  👈 Click here!
+# Hourly power consumption Forecasting App :  Open in Streamlit  https://ankithajinu-hourlypowerconsumption-app-0nho8c.streamlitapp.com/  👈 Click here!
  
 <P-153- Hourly Energy Consumption Forecast >
 
